@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="19" failures="0" name="cucumberOptions.TestRunner" time="0.003" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-14.0.1.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sabapathi.akkipalli/QAHome/RestAPI/MvnAPIJava"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sabapathi.akkipalli/QAHome/RestAPI/MvnAPIJava"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/48/bws6y5nd19z8xzfl2h7llb30j1gl4v/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/sabapathi.akkipalli/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sabapathi.akkipalli/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/sabapathi.akkipalli/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="58.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="library.jansi.path" value="/Users/sabapathi.akkipalli/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/lib/jansi-native"/>
+    <property name="user.home" value="/Users/sabapathi.akkipalli"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="14"/>
+    <property name="user.name" value="sabapathi.akkipalli"/>
+    <property name="java.class.path" value="/Users/sabapathi.akkipalli/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test verify"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openjdk-14.0.1.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/sabapathi.akkipalli/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/MAVEN_HOME"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+  </properties>
+  <testcase classname="| Aspenwoods | English | 1105 Duckwood trail |" name="Given Add Place Payload with &quot;Aspenwoods&quot; &quot;English&quot; &quot;1105 Duckwood trail&quot;" time="0.002"/>
+  <testcase classname="| Aspenwoods | English | 1105 Duckwood trail |" name="When user calls &quot;addPlaceAPI&quot; with &quot;post&quot; http request" time="0"/>
+  <testcase classname="| Aspenwoods | English | 1105 Duckwood trail |" name="Then the API call got success with status code 200" time="0"/>
+  <testcase classname="| Aspenwoods | English | 1105 Duckwood trail |" name="And &quot;status&quot; in response body is &quot;OK&quot;" time="0"/>
+  <testcase classname="| Aspenwoods | English | 1105 Duckwood trail |" name="And &quot;scope&quot; in response body is &quot;APP&quot;" time="0"/>
+  <testcase classname="| Aspenwoods | English | 1105 Duckwood trail |" name="And verify place_id created maps to &quot;Aspenwoods&quot; using &quot;getPlaceAPI&quot;" time="0"/>
+  <testcase classname="| Aspenwoods | English | 1105 Duckwood trail |" name="| Aspenwoods | English | 1105 Duckwood trail |" time="0"/>
+  <testcase classname="| StreetSmart | English | 2520 Pilot Knob Rd |" name="Given Add Place Payload with &quot;StreetSmart&quot; &quot;English&quot; &quot;2520 Pilot Knob Rd&quot;" time="0"/>
+  <testcase classname="| StreetSmart | English | 2520 Pilot Knob Rd |" name="When user calls &quot;addPlaceAPI&quot; with &quot;post&quot; http request" time="0"/>
+  <testcase classname="| StreetSmart | English | 2520 Pilot Knob Rd |" name="Then the API call got success with status code 200" time="0"/>
+  <testcase classname="| StreetSmart | English | 2520 Pilot Knob Rd |" name="And &quot;status&quot; in response body is &quot;OK&quot;" time="0"/>
+  <testcase classname="| StreetSmart | English | 2520 Pilot Knob Rd |" name="And &quot;scope&quot; in response body is &quot;APP&quot;" time="0"/>
+  <testcase classname="| StreetSmart | English | 2520 Pilot Knob Rd |" name="And verify place_id created maps to &quot;StreetSmart&quot; using &quot;getPlaceAPI&quot;" time="0"/>
+  <testcase classname="| StreetSmart | English | 2520 Pilot Knob Rd |" name="| StreetSmart | English | 2520 Pilot Knob Rd |" time="0"/>
+  <testcase classname="Scenario: Verify if Delete place functionality is working" name="Given DeletePlace Payload" time="0"/>
+  <testcase classname="Scenario: Verify if Delete place functionality is working" name="When user calls &quot;deletePlaceAPI&quot; with &quot;post&quot; http request" time="0"/>
+  <testcase classname="Scenario: Verify if Delete place functionality is working" name="Then the API call got success with status code 200" time="0.001"/>
+  <testcase classname="Scenario: Verify if Delete place functionality is working" name="And &quot;status&quot; in response body is &quot;OK&quot;" time="0"/>
+  <testcase classname="Scenario: Verify if Delete place functionality is working" name="Scenario: Verify if Delete place functionality is working" time="0"/>
+</testsuite>
